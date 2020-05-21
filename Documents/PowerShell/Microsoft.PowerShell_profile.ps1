@@ -12,3 +12,4 @@ function prompt {
 
 New-Alias zicm Invoke-AzVMRunCommand
 New-Alias gcr Get-Credential 
+New-Alias ytdl youtube-dl
