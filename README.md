@@ -1,4 +1,4 @@
-![](prompt.png)
+![](img/prompt.jpg)
 - [PowerShell profile](Documents\PowerShell\Microsoft.PowerShell_profile.ps1)
 Contains small PowerShell functions to:
   - Invoke **Visual Studio** from the command line without manipulating the PATH
