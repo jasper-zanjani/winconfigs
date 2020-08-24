@@ -1,24 +1,25 @@
 {
   "alwaysShowTabs": true,
+  // "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
   "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
   "initialCols": 120,
   "initialRows": 30,
   "keybindings": [
     {
       "command": "closeTab",
-      "keys": ["ctrl+w"]
+      "keys": ["ctrl+shift+w"]
     }, {
       "command": "newTab",
-      "keys": ["ctrl+t"]
+      "keys": ["ctrl+shift+t"]
     }, {
       "command": "nextTab",
-      "keys": ["ctrl+pgdn"]
+      "keys": ["ctrl+shift+pgdn"]
     }, {
       "command": "prevTab",
-      "keys": ["ctrl+pgup"]
+      "keys": ["ctrl+shift+pgup"]
     }, {
       "command": "openSettings",
-      "keys": ["ctrl+,"]
+      "keys": ["ctrl+shift+,"]
     }],
   "requestedTheme": "system",
   "showTabsInTitlebar": true,
@@ -26,54 +27,37 @@
   "wordDelimiters": " ./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}~?\u2502",
   "$schema": "https://aka.ms/terminal-profiles-schema",
   "profiles": [
-    {
-      "name": "Git Bash",
-      "commandline": "%PROGRAMFILES%\\Git\\bin\\bash.exe",
-      "icon": "%PROGRAMFILES%\\Git\\mingw64\\share\\git\\git-for-windows.ico",
-      "fontFace": "Cascadia Code",
-      "fontSize": 11,
-      "padding": "30,30,30,30",
-      "cursorColor": "#32E0F0",
-      "cursorShape": "filledBox",
-      "colorScheme": "Campbell",
-      "startingDirectory": "%USERPROFILE%",
-      "guid": "{1587a00d-a4a5-45b4-a626-f9ceb1c4a39c}"
-    },
+    // {
+    //   "name": "Git Bash",
+    //   "commandline": "%PROGRAMFILES%\\Git\\bin\\bash.exe",
+    //   "icon": "%PROGRAMFILES%\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+    //   "fontFace": "Cascadia Code",
+    //   "fontSize": 11,
+    //   "padding": "30,30,30,30",
+    //   "cursorColor": "#32E0F0",
+    //   "cursorShape": "filledBox",
+    //   "colorScheme": "Campbell",
+    //   "startingDirectory": "%USERPROFILE%",
+    //   "guid": "{1587a00d-a4a5-45b4-a626-f9ceb1c4a39c}"
+    // },
     {
       "name": "PowerShell Core",
       "acrylicOpacity": 0.5,
       "closeOnExit": true,
-      "colorScheme": "Campbell",
-      "commandline": "%PROGRAMFILES%\\PowerShell\\7\\pwsh.exe",
+      "colorScheme": "Campbell/Embark",
+      "commandline": "%PROGRAMFILES%\\PowerShell\\7\\pwsh.exe -NoLogo",
       "cursorColor": "#FFFF11",
       "cursorShape": "filledBox",
-      "fontFace": "Consolas",
-      "fontSize": 11,
+      "fontFace": "Inconsolata",
+      "fontSize": 14,
       "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-      "padding": "50,50,50,50",
+      "padding": "30,30,30,30",
       "historySize": 9001,
       "icon": "ms-appx:///ProfileIcons/{574e775e-4f2a-5b96-ac1e-a2962a402336}.png",
       "snapOnInput": true,
       // "startingDirectory" : "%USERPROFILE%",
-      "useAcrylic": false
-    },
-    {
-      "name": "PowerShell Core (presentation)",
-      "acrylicOpacity": 0.5,
-      "closeOnExit": true,
-      "colorScheme": "Campbell",
-      "commandline": "%PROGRAMFILES%\\PowerShell\\7\\pwsh.exe",
-      "cursorColor": "#FFFF11",
-      "cursorShape": "filledBox",
-      "fontFace": "Consolas",
-      "fontSize": 32,
-      "guid": "{c9ddfd62-80e3-4b32-a9ae-2de6833df617}",
-      "padding": "100,100,100,100",
-      "historySize": 9001,
-      "icon": "ms-appx:///ProfileIcons/{574e775e-4f2a-5b96-ac1e-a2962a402336}.png",
-      "snapOnInput": true,
-      // "startingDirectory" : "%USERPROFILE%",
-      "useAcrylic": false
+      "useAcrylic": true,
+      "acrylicOpacity": 0.8
     },
     {
       "name": "Windows PowerShell",
@@ -114,7 +98,6 @@
     },
     {
       "name": "Ubuntu",
-      "acrylicOpacity": 0.5,
       "closeOnExit": true,
       "colorScheme": "Ubuntu",
       "commandline": "wsl.exe -d Ubuntu",
@@ -127,7 +110,9 @@
       "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
       "padding": "30,30,30,30",
       "snapOnInput": true,
-      "useAcrylic": false
+      "startingDirectory": "//wsl$/Ubuntu/home/jasper",
+      "useAcrylic": true,
+      "acrylicOpacity": 0.8
     },
     {
       "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -140,9 +125,84 @@
       "hidden": false,
       "name": "Ubuntu-18.04",
       "source": "Windows.Terminal.Wsl"
+    },
+    {
+      "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+      "hidden": false,
+      "name": "Ubuntu-20.04",
+      "source": "Windows.Terminal.Wsl",
+      "cursorColor": "#DD4814",
+      "cursorShape": "filledBox",
+      "fontFace": "Ubuntu Mono",
+      "fontSize": 12,
+      "colorScheme": "Ubuntu",
+      "padding": "30,30,30,30"
     }
   ],
   "schemes": [
+    /* {
+       "name": "TEMPLATE",
+       "background": "#",
+       "foreground": "#",
+       "brightBlack": "#",
+       "brightRed": "#",
+       "brightGreen": "#",
+       "brightYellow": "#",
+       "brightBlue": "#",
+       "brightPurple": "#",
+       "brightCyan": "#",
+       "white": "#",
+       "black": "#",
+       "red": "#C50",
+       "green": "#",
+       "yellow": "#",
+       "blue": "#",
+       "purple": "#",
+       "cyan": "#",
+       "brightWhite": "#",
+     }, */
+     {
+      "name": "Campbell/Embark",
+      "background": "#1e1c31",
+      "brightBlack": "#767676",
+      "brightBlue": "#3B78FF",
+      "brightCyan": "#61D6D6",
+      "brightGreen": "#16C60C",
+      "brightPurple": "#B4009E",
+      "brightRed": "#E74856",
+      "brightWhite": "#F2F2F2",
+      "brightYellow": "#F9F1A5",
+      "black": "#0C0C0C",
+      "blue": "#0037DA",
+      "cyan": "#3A96DD",
+      "foreground": "#F2F2F2",
+      "green": "#13A10E",
+      "purple": "#881798",
+      "red": "#C50F1F",
+      "white": "#CCCCCC",
+      "yellow": "#C19C00"
+    },
+    {
+      "name": "Belafonte Day",
+      "background": "#d5ccba",
+      "foreground": "#45373c",
+      "brightBlack": "#5e5252",
+      "brightRed": "#be100e",
+      "brightGreen": "#858162",
+      "brightYellow": "#eaa549",
+      "brightBlue": "#426a79",
+      "brightPurple": "#97522c",
+      "brightCyan": "#989a9c",
+      "white": "#968c83",
+      "black": "#20111b",
+      "red": "#be100e",
+      "green": "#69664e",
+      "yellow": "#ca8e40",
+      "blue": "#355763",
+      "purple": "#804526",
+      "cyan": "#77797a",
+      "brightWhite": "#d5ccba"
+    },
     {
       "name": "Campbell",
       "background": "#0C0C0C",
