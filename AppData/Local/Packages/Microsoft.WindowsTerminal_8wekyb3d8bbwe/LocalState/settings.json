@@ -44,7 +44,7 @@
       "name": "PowerShell Core",
       "acrylicOpacity": 0.5,
       "closeOnExit": true,
-      "colorScheme": "Campbell/Embark",
+      "colorScheme": "Dogrun",
       "commandline": "%PROGRAMFILES%\\PowerShell\\7\\pwsh.exe -NoLogo",
       "cursorColor": "#FFFF11",
       "cursorShape": "filledBox",
@@ -57,7 +57,7 @@
       "snapOnInput": true,
       // "startingDirectory" : "%USERPROFILE%",
       "useAcrylic": true,
-      "acrylicOpacity": 0.8
+      "acrylicOpacity": 0.9
     },
     {
       "name": "Windows PowerShell",
@@ -202,6 +202,28 @@
       "purple": "#804526",
       "cyan": "#77797a",
       "brightWhite": "#d5ccba"
+    },
+    {
+      // Adapted from https://github.com/wadackel/vim-dogrun
+      "name": "Dogrun",
+      "background": "#222433",
+      "brightBlack": "#767676",
+      "brightBlue": "#3B78FF",
+      "brightCyan": "#61D6D6",
+      "brightGreen": "#16C60C",
+      "brightPurple": "#B4009E",
+      "brightRed": "#E74856",
+      "brightWhite": "#F2F2F2",
+      "brightYellow": "#F9F1A5",
+      "black": "#0C0C0C",
+      "blue": "#0037DA",
+      "cyan": "#3A96DD",
+      "foreground": "#F2F2F2",
+      "green": "#13A10E",
+      "purple": "#881798",
+      "red": "#C50F1F",
+      "white": "#CCCCCC",
+      "yellow": "#C19C00"
     },
     {
       "name": "Campbell",
