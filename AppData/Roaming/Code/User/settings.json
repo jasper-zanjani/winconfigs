@@ -1,0 +1,72 @@
+{
+    "breadcrumbs.enabled": false,
+    "python.pythonPath": "C:\\Users\\jaspe\\alieninvasion\\Scripts\\python.exe",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Community Material Theme Darker",
+    "editor.fontFamily": "'JetBrains Mono',Hack, Consolas, 'Courier New', monospace",
+    "markdown.preview.breaks": true,
+    "workbench.colorCustomizations": {
+        "activityBarBadge.background": "#FF4081",
+        "list.activeSelectionForeground": "#FF4081",
+        "list.inactiveSelectionForeground": "#FF4081",
+        "list.highlightForeground": "#FF4081",
+        "scrollbarSlider.activeBackground": "#FF408150",
+        "editorSuggestWidget.highlightForeground": "#FF4081",
+        "textLink.foreground": "#FF4081",
+        "progressBar.background": "#FF4081",
+        "pickerGroup.foreground": "#FF4081",
+        "tab.activeBorder": "#FF4081",
+        "notificationLink.foreground": "#FF4081",
+        "editorWidget.resizeBorder": "#FF4081",
+        "editorWidget.border": "#FF4081",
+        "settings.modifiedItemIndicator": "#FF4081",
+        "settings.modifiedItemForeground": "#FF4081",
+        "settings.headerForeground": "#FF4081",
+        "panelTitle.activeBorder": "#FF4081",
+        "breadcrumb.activeSelectionForeground": "#FF4081",
+        "menu.selectionForeground": "#FF4081",
+        "menubar.selectionForeground": "#FF4081"
+    },
+    "materialTheme.accent": "Pink",
+    "workbench.statusBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "editor.tabSize": 2,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.vscode": true,
+        "**/*.rcgu.o": true
+    },
+    "explorer.confirmDelete": false,
+    "files.associations": {
+        "*.gs": "javascript"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderWhitespace": "all",
+    "material-icon-theme.folders.color": "#26a69a",
+    "editor.lineNumbers": "on",
+    "markdown.extension.italic.indicator": "_",
+    "material-icon-theme.showReloadMessage": false,
+    "workbench.activityBar.visible": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "editor.renderControlCharacters": true,
+    "powershell.promptToUpdatePowerShell": false,
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    }
+}
